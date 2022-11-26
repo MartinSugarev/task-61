@@ -89,5 +89,13 @@
         </div>
       </div>
     </div>
+    <script>
+      const hotPriceClass = document.querySelectorAll('.hot')
+      hotPriceClass.forEach(el => {
+        let content = el.textContent;
+        el.textContent += ' 🔥' ;
+      })
+       
+    </script>
   </body>
 </html>
